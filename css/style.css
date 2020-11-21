@@ -10,6 +10,24 @@ a{
 a:hover{
     color:#fff !important;
 }
+.pt{
+    padding-top: 50px;
+}
+.mt{
+    margin-top: 50px;
+}
+.p{
+    padding: 25px;
+    margin-top: 0px;
+}
+.contacteznous {
+   margin-top: 50px;
+}
+.image-icon-copy-2 {
+    width: 150px;
+    height: 150px;
+    background-image: url(/images/imagesIndex/contactPack1.png);
+}
 .carousel-inner img{
     width: 100%;
     height: 600px;
@@ -41,8 +59,6 @@ a:hover{
     background-image: url("/images/imagesIndex/fixedimg2.jpg");
 }
 footer{
-    margin-top: 50px;
-    padding: 10px;
     padding-bottom: 1px;
     margin-bottom: -25px;
 }
@@ -73,5 +89,11 @@ card{
 card:hover{
     transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index: 1;
+}
+.logo:hover{
+    transform: rotate(50deg);
+}
+.logo{
+    transition: 1.5s;
 }
   
